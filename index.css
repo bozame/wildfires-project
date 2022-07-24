@@ -210,3 +210,38 @@ section#report p{
   font-size: 20px;
   color: #fff;
 }
+
+section#statistics h1{
+  position: relative;
+  text-align: center;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 70px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.graphs{
+  width: 400px;
+  height: 400px;
+  margin-top: 50px;
+  display: flex;
+}
+
+.graphs img{
+  width: 300px;
+  height: 300px;
+}
+
+.graphs .box{
+  width: 300px;
+  height: 300px;
+  box-shadow: -1px 0 10px #000;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+
