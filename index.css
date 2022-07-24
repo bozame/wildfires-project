@@ -149,7 +149,7 @@ section#help h1{
   color: #fff;
 }
 
-#help ul{
+section#help ul{
   margin:0;
   padding:0;
   text-align: center;
@@ -163,13 +163,13 @@ section#help h1{
 }
 
 
-#help li{
+section#help li{
   list-style: none;
   display:list-item;
   margin: 20px;
 }
 
-#help li a{
+section#help li a{
   color: #fff;
   text-decoration: none;
   font-size: 20px;
