@@ -1,22 +1,26 @@
 from flask import Flask, render_template
 import pandas as pd
+import matplotlib.pyplot as plt
 
 app = Flask(__name__)
 
-df = pd.read_csv('database.csv')
-df.to_csv('database.csv', index=None)
+
 
 @app.route("/")
-@app.route("/table")
-def table():
-    
-    # converting csv to html
-    data = pd.read_csv('database.csv')
-    return render_template('index.html', tables=[data.to_html()], titles=[''])
+def home():
+  #data = pd.read_csv('database.csv')
+ # labels = [row[0] for row in data]
+  #values = [row[0] for row in data]
 
- ##def home():
-   # return render_template("index.html")
+  return render_template("index.html")
  
 
 if __name__ == "__main__":
     app.run()
+
+##@app.route("/table")
+#def table():
+    
+    # converting csv to html
+ #   data = pd.read_csv('database.csv')
+  #  return render_template('index.html', tables=[data.to_html()], titles=[''])
