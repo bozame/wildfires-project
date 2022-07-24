@@ -6,8 +6,7 @@ body {
 
 body {
   background-image:
-  linear-gradient(135deg, hsla(136, 50%, 10%, 0.7), hsla(140, 70%, 42%, 0.2)),
-    url("/wildforest.jfif");
+
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -242,6 +241,56 @@ section#statistics h1{
   justify-content: center;
 
 }
+
+#home{
+  background-image:
+  linear-gradient(135deg, hsla(136, 50%, 10%, 0.7), hsla(140, 70%, 42%, 0.2)),
+  url("./fimg1.jpg");
+  background-size: cover;
+  width:100%;
+  z-index:2;
+}
+
+#wildfires{
+  background-color: #B52B65;
+  background-image:
+  linear-gradient(135deg, hsla(136, 50%, 10%, 0.7), hsla(140, 70%, 42%, 0.2)),
+  url("/wildforest.jfif");
+
+  background-size: cover;
+  width:100%;
+  z-index:-2;
+}
+
+#statistics{
+  background-image:
+  linear-gradient(135deg, hsla(136, 50%, 10%, 0.7), hsla(140, 70%, 42%, 0.2)),
+  url("./fimg3.jpg");
+  background-size: cover;
+  width:100%;
+  z-index:-2;
+
+}
+
+#help{
+  background-image:
+  linear-gradient(135deg, hsla(136, 50%, 10%, 0.7), hsla(140, 70%, 42%, 0.2)),
+  url("./fimg4.jpg");
+  background-size: cover;
+  width:100%;
+  z-index:-2;
+}
+
+
+#report{
+  background-image:
+  linear-gradient(135deg, hsla(136, 50%, 10%, 0.7), hsla(140, 70%, 42%, 0.2)),
+  url("./fimg2.jpg");
+  background-size: cover;
+  width:100%;
+  z-index:-2;
+}
+
 
 
 
