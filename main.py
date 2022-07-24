@@ -8,9 +8,13 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-  #data = pd.read_csv('database.csv')
- # labels = [row[0] for row in data]
-  #values = [row[0] for row in data]
+  data = pd.read_csv('database.csv')
+  labels = []
+  values = []
+  for row in data:
+    labels.append(row[0])
+    values.append(row[1])
+
 
   return render_template("index.html")
  
