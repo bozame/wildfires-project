@@ -139,3 +139,74 @@ section#wildfires h1{
   font-weight: 700;
   color: #fff;
 }
+
+
+section#help h1{
+  position: relative;
+  text-align: center;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 70px;
+  font-weight: 700;
+  color: #fff;
+}
+
+#help ul{
+  margin:0;
+  padding:0;
+  text-align: center;
+  list-style:none;
+  position: relative;
+  text-align: center;
+  top: 35%;
+  left: 50%;
+  padding-bottom: 15px;
+  transform: translate(-50%, -50%);
+}
+
+
+#help li{
+  list-style: none;
+  display:list-item;
+  margin: 20px;
+}
+
+#help li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#help h3{
+  position: relative;
+  text-align: center;
+  top: 30%;
+  left: 50%;
+  padding-bottom: 15px;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: #fff;
+}
+
+section#report h1{
+  position: relative;
+  text-align: center;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 70px;
+  font-weight: 700;
+  color: #fff;
+}
+
+section#report p{
+  position: relative;
+  text-align: center;
+  top: 40%;
+  left: 50%;
+  padding-bottom: 15px;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: #fff;
+}
